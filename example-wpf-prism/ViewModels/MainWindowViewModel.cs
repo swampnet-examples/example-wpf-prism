@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace example_wpf_prism.ViewModels
+namespace Example.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace example_wpf_prism.Views
+namespace Example.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

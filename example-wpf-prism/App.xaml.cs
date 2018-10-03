@@ -1,4 +1,6 @@
-﻿using Prism.Ioc;
+﻿using Example.ViewModels;
+using Example.Views;
+using Prism.Ioc;
 using Prism.Unity;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace example_wpf_prism
+namespace Example
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -22,7 +24,6 @@ namespace example_wpf_prism
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
         }
     }
 }
