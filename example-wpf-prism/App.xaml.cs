@@ -1,6 +1,8 @@
 ﻿using Example.ViewModels;
 using Example.Views;
+using ModuleExample;
 using Prism.Ioc;
+using Prism.Modularity;
 using Prism.Unity;
 using System;
 using System.Collections.Generic;
@@ -24,6 +26,15 @@ namespace Example
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+        }
+
+        protected override IModuleCatalog CreateModuleCatalog()
+        {
+            var cat = new ModuleCatalog();
+
+            cat.AddModule<TestModule>();
+
+            return cat;
         }
     }
 }
