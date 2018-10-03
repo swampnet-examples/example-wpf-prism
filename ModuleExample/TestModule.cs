@@ -1,4 +1,6 @@
-﻿using Prism.Ioc;
+﻿using ModuleExample.ViewModels;
+using ModuleExample.Views;
+using Prism.Ioc;
 using Prism.Modularity;
 using System;
 using System.Collections.Generic;
@@ -20,6 +22,7 @@ namespace ModuleExample
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterForNavigation<TestModuleView, TestModuleViewModal>("Test");
         }
     }
 }

@@ -11,5 +11,6 @@
         Height="450" Width="800">
     <Grid>
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <Button Command="{Binding NavigateTestCommand}" Width="100" Height="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">Boosh</Button>
     </Grid>
 </Window>
