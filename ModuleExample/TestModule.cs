@@ -12,7 +12,6 @@ namespace ModuleExample
     {
         public TestModule()
         {
-
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
